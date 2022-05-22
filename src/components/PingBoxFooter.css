@@ -1,0 +1,25 @@
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+ul li{
+    margin-right: 20px;
+    background-color: white;
+    width: 20px;
+    text-align: center;
+}
+.iconfooter{
+padding: 10px;
+border-radius: 50%;
+width: 20px;
+text-align: center;
+}
+.iconfooter:hover{
+    color: white;
+    background-color: hsl(223, 87%, 63%);
+}
+.contentfooter{
+    margin-left: 5%;
+    font-size: 10px;
+}

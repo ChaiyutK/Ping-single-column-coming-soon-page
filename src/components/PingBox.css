@@ -1,0 +1,103 @@
+.container{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 3%; 
+}
+p{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 0;
+    color: hsl(0, 0%, 59%);
+}
+span{
+    font-weight: 700;
+    color: black;
+}
+.validatortext{
+    visibility: hidden;
+    color: hsl(354, 100%, 66%);
+    font-size: 10px;
+    text-align: left;
+    margin-left: 3%;
+}
+.subscribe
+{
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: black;
+}
+form{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+img.logo{
+    
+    width : 100px;
+}
+.flexbox{
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    display: block;
+    box-sizing: border-box;
+}
+.notifybox{
+    width: 100%;
+    align-items: flex-start;
+}
+.notifyinput{
+    width: 80%;
+}
+.notifybutton{
+    text-align: right;
+    width: 20%;
+}
+.fullcontent{
+    width: 100%;
+}
+input{
+    padding: 15px 20px;
+    width: 90%;
+    border-radius: 20px;
+    border-color: hsl(223, 100%, 88%);
+}
+button{
+    border-color: hsl(223, 87%, 63%);
+    background: hsl(223, 87%, 63%);
+    color: white;
+    font-weight: 700;
+    padding: 15px 20px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+@media screen and (max-width:800px) {
+    .container{
+        width: 350px;
+        margin-top: 10%;
+    }
+    .notifyinput{
+        width: 100%;
+    }
+    .notifybutton{
+        text-align: center;
+        width: 100%;
+    }
+    p{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 0;
+        color: hsl(0, 0%, 59%);
+    }
+    .validatortext{
+        margin-top: 5px;
+        text-align: center;
+        margin-left: 0;
+    }
+}

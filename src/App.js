@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import PingBox from './components/PingBox';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <PingBox />
+      <footer>
+    <p className="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/ChaiyutK">Chaiyut Kongprawat</a>.
+    </p>
+  </footer>
     </div>
   );
 }
